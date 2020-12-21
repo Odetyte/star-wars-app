@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Deploying the application to a cloud provider
 
-Steps for deploying star-wars-app on Heroku from the beginning
+Steps for deploying star-wars-app on Heroku from the start
 
 ## Sign Up
 
@@ -90,6 +90,8 @@ sudo snap install heroku --classic
 
 heroku login
 
+This opens your web browser to the Heroku login page. If you already looged in then click Log in button displayed on the page.
+
 ## Create An Heroku app
 
 heroku create $YOUR_APP_NAME --region eu
@@ -102,5 +104,6 @@ git push heroku master
 
 ## Other useful commands
 
-heroku open         #open in your browser
-heroku logs --tail  #show the app logs and keep listening
+• heroku open         #open in your browser
+• heroku logs --tail  #show the app logs and keep listening
+• heroku apps:rename newname #to change  the default app name
