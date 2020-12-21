@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Button from 'react-bootstrap/Button';
 
 const App = () => (
   <div>
-    <p>Star Wars App in progress 🔧</p>
+  <Button variant="outline-secondary">Star Wars App in progress 🔧</Button>{' '}
   </div>
 )
 

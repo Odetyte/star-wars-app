@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './App.css'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
 
-const App = () => (
-  <div>
-    <p>Star Wars App in progress 🔧</p>
-  </div>
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
 )
-
-ReactDOM.render(<App />, document.getElementById('root'))
