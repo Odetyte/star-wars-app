@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Deploying the application to a cloud provider
+
+Steps for deploying star-wars-app on Heroku from the beginning
+
+## Sign Up
+
+Create an account at https://id.heroku.c om/
+
+## Install heroku on OS X
+
+brew tap heroku/brew && brew install heroku
+
+## Or Install on Ubuntu
+
+sudo snap install heroku --classic
+
+## Login to Heroku from your terminal with a command
+
+heroku login
+
+## Create An Heroku app
+
+heroku create $YOUR_APP_NAME --region eu
+
+eu/us are the common regions. Read more about regions: https://devcenter.heroku.com/articles/regions#view-the-list-of-available-regions
+
+## To deploy the application
+
+git push heroku master
+
+## Other useful commands
+
+heroku open         #open in your browser
+heroku logs --tail  #show the app logs and keep listening
