@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import Button from 'react-bootstrap/Button';
+import Banner from './components/Banner';
+
 
 const App = () => (
   <div>
-  <Button variant="outline-secondary">Star Wars App in progress 🔧</Button>{' '}
+  <Banner/>
+  <Button variant="outline-secondary" className="Button-first">Star Wars App in progress 🔧</Button>{' '}
   </div>
 )
 
